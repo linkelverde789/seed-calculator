@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <h1>Calculadora de semillas</h1>
+        <form action="calcular.php" method="post">
+            <select name="options" required>
+                <option value="casillas">Casillas</option>
+                <option value="oro">Oro</option>
+            </select>
+
+            <input type="number" min="0" name="gold" required>
+
+            <select name="season" required>
+                <option value="primavera">Primavera</option>
+                <option value="verano">Verano</option>
+                <option value="otoño">Otoño</option>
+            </select>
+            <button type="submit">Calcular</button>
+        </form>
+    </div>
+</body>
+
+</html>

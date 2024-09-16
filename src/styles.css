@@ -1,0 +1,95 @@
+/* Archivo: styles.css */
+
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #e6d8aa;
+    /* background-image: url("fondo.png"); */
+    color: #4a3622;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+/* Estilo del formulario */
+form {
+    background-color: #f9e5bc;
+    padding: 20px;
+    border: 2px solid #4a3622;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo de los elementos del formulario */
+form select,
+form input[type="number"],
+form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #4a3622;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #4a3622;
+}
+
+/* Estilo del botón */
+form button {
+    background-color: #ffb347;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ff9234;
+}
+
+form input[type="number"]{
+    display: block;
+    width: 93.5%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #4a3622;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #4a3622;
+}
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #f9e5bc;
+    border: 2px solid #4a3622;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo de las celdas de la tabla */
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #4a3622;
+}
+
+/* Estilo de las filas de la tabla */
+tr:nth-child(even) {
+    background-color: #ffe6cc;
+}
+
+/* Estilo de las cabeceras de la tabla */
+th {
+    background-color: #ffb347;
+    color: #4a3622;
+}
+
+/* Estilo al pasar el ratón por encima de las filas */
+tr:hover {
+    background-color: #ffdbac;
+}
